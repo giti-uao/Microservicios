@@ -28,7 +28,7 @@ public class http_rest {
     @ResponseBody
     public responseModel process_img(@RequestBody requestModel img_obj){
     	try {
-			responseModel response_obj = restTemplate.postForObject("http://localhost:9080/img",img_obj, responseModel.class);
+			responseModel response_obj = restTemplate.postForObject("http://api_object_detection_service:9080/img",img_obj, responseModel.class);
 			return response_obj;
 		} catch (RestClientException e) {
 			// TODO Auto-generated catch block
