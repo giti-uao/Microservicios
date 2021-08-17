@@ -1,5 +1,5 @@
 FROM openjdk:8
 WORKDIR /
-ADD springboot-actuator-0.0.1-SNAPSHOT.jar springboot-actuator-0.0.1-SNAPSHOT.jar
+ADD jar/api_apigateway-0.0.1-SNAPSHOT.jar api_apigateway-0.0.1-SNAPSHOT.jar
 EXPOSE 7000
-CMD java -jar springboot-actuator-0.0.1-SNAPSHOT.jar
+CMD java -jar api_apigateway-0.0.1-SNAPSHOT.jar
