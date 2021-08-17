@@ -3,6 +3,7 @@
   <groupId>api_apigateway</groupId>
   <artifactId>api_apigateway</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
 <dependencies>
 		<dependency>
 			<groupId>org.nd4j</groupId>
@@ -87,18 +88,20 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 				<configuration>
-				<outputDirectory>${project.build.directory}</outputDirectory>
+					<outputDirectory>${project.build.directory}</outputDirectory>
 					<excludes>
 						<exclude>
 							<groupId>org.projectlombok</groupId>
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
-				<archive>
-					<manifest>
-						<mainClass>api.endpoints.springbootactuator.SpringbootActuatorApplication</mainClass>
-					</manifest>
-				</archive>
+					<archive>
+						<manifest>
+							<addClasspath>true</addClasspath>
+							<mainClass>api.endpoints.springbootactuator.SpringbootActuatorApplication</mainClass>
+						</manifest>
+					</archive>
+					<executable>true</executable>
 				</configuration>
 			</plugin>
 			<plugin>
