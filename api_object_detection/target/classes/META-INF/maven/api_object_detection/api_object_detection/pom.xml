@@ -6,6 +6,7 @@
 	<artifactId>api_object_detection</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>api_object_detection</name>
+	<directory>jar files</directory>
 	<dependencies>
 		<dependency>
 			<groupId>org.nd4j</groupId>
@@ -85,7 +86,6 @@
 	</dependencies>
 	<build>
 		<finalName>${project.artifactId}-${project.version}</finalName>
-		<directory>jar</directory>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
