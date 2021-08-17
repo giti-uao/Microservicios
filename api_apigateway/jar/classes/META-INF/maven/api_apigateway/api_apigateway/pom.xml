@@ -94,6 +94,11 @@
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
+				<archive>
+					<manifest>
+						<mainClass>api.endpoints.springbootactuator.controller.http_rest</mainClass>
+					</manifest>
+				</archive>
 				</configuration>
 			</plugin>
 			<plugin>
