@@ -37,7 +37,7 @@ public class http_rest {
 			yolo yolo_obj = new yolo();
 			List<objProperties> resp = yolo_obj.detect_objs(0.4,img_obj.getUrl());
 			requestDataModel request_data = new requestDataModel(resp,img_obj.getArchivo());
-			responseModel response_obj = restTemplate.postForObject("http://localhost:7000/data",request_data, responseModel.class);
+			responseModel response_obj = restTemplate.postForObject("http://api_database_service:7000/data",request_data, responseModel.class);
 			return response_obj;
 		} catch (RestClientException e) {
 			// TODO Auto-generated catch block
