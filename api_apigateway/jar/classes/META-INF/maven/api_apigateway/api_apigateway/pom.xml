@@ -96,7 +96,7 @@
 					</excludes>
 				<archive>
 					<manifest>
-						<mainClass>api.endpoints.springbootactuator.controller.http_rest</mainClass>
+						<mainClass>api.endpoints.springbootactuator.SpringbootActuatorApplication</mainClass>
 					</manifest>
 				</archive>
 				</configuration>
