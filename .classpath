@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="api_database/src"/>
+	<classpathentry kind="src" path="api_object_detection/src"/>
+	<classpathentry kind="lib" path="api_object_detection/target/api-yolo-0.0.1-SNAPSHOT-jar-with-dependencies.jar"/>
+	<classpathentry kind="lib" path="api_object_detection/target/api-yolo-0.0.1-SNAPSHOT.jar"/>
+	<classpathentry kind="output" path="api_database/target/classes"/>
+</classpath>
