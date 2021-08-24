@@ -5,7 +5,12 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>api_database</name>
   <dependencies>
-		<dependency>
+	  <dependency>
+		  <groupId>mysql</groupId>
+		  <artifactId>mysql-connector-java</artifactId>
+		  <version>8.0.12</version>
+	  </dependency>
+	  <dependency>
 			<groupId>org.nd4j</groupId>
 			<artifactId>nd4j-native-platform</artifactId>
 			<version>1.0.0-beta6</version>

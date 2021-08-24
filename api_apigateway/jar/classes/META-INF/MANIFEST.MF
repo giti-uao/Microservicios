@@ -1,5 +1,108 @@
 Manifest-Version: 1.0
 Built-By: heber
+Class-Path: lib/nd4j-native-platform-1.0.0-beta6.jar lib/openblas-plat
+ form-0.3.7-1.5.2.jar lib/openblas-0.3.7-1.5.2.jar lib/openblas-0.3.7-
+ 1.5.2-android-arm.jar lib/openblas-0.3.7-1.5.2-android-arm64.jar lib/
+ openblas-0.3.7-1.5.2-android-x86.jar lib/openblas-0.3.7-1.5.2-android
+ -x86_64.jar lib/openblas-0.3.7-1.5.2-ios-arm64.jar lib/openblas-0.3.7
+ -1.5.2-ios-x86_64.jar lib/openblas-0.3.7-1.5.2-linux-x86.jar lib/open
+ blas-0.3.7-1.5.2-linux-x86_64.jar lib/openblas-0.3.7-1.5.2-linux-armh
+ f.jar lib/openblas-0.3.7-1.5.2-linux-arm64.jar lib/openblas-0.3.7-1.5
+ .2-linux-ppc64le.jar lib/openblas-0.3.7-1.5.2-macosx-x86_64.jar lib/o
+ penblas-0.3.7-1.5.2-windows-x86.jar lib/openblas-0.3.7-1.5.2-windows-
+ x86_64.jar lib/mkl-platform-2019.5-1.5.2.jar lib/mkl-2019.5-1.5.2.jar
+  lib/mkl-2019.5-1.5.2-linux-x86.jar lib/mkl-2019.5-1.5.2-linux-x86_64
+ .jar lib/mkl-2019.5-1.5.2-macosx-x86_64.jar lib/mkl-2019.5-1.5.2-wind
+ ows-x86.jar lib/mkl-2019.5-1.5.2-windows-x86_64.jar lib/nd4j-native-1
+ .0.0-beta6.jar lib/javacpp-1.5.2.jar lib/nd4j-native-api-1.0.0-beta6.
+ jar lib/nd4j-native-1.0.0-beta6-android-arm.jar lib/nd4j-native-1.0.0
+ -beta6-android-arm64.jar lib/nd4j-native-1.0.0-beta6-android-x86.jar 
+ lib/nd4j-native-1.0.0-beta6-android-x86_64.jar lib/nd4j-native-1.0.0-
+ beta6-ios-arm64.jar lib/nd4j-native-1.0.0-beta6-ios-x86_64.jar lib/nd
+ 4j-native-1.0.0-beta6-linux-x86_64.jar lib/nd4j-native-1.0.0-beta6-ma
+ cosx-x86_64.jar lib/nd4j-native-1.0.0-beta6-windows-x86_64.jar lib/nd
+ 4j-native-1.0.0-beta6-linux-ppc64le.jar lib/nd4j-native-1.0.0-beta6-l
+ inux-armhf.jar lib/deeplearning4j-core-1.0.0-beta6.jar lib/deeplearni
+ ng4j-tsne-1.0.0-beta6.jar lib/nearestneighbor-core-1.0.0-beta6.jar li
+ b/deeplearning4j-datasets-1.0.0-beta6.jar lib/deeplearning4j-datavec-
+ iterators-1.0.0-beta6.jar lib/deeplearning4j-modelimport-1.0.0-beta6.
+ jar lib/gson-2.8.0.jar lib/hdf5-platform-1.10.5-1.5.2.jar lib/hdf5-1.
+ 10.5-1.5.2.jar lib/hdf5-1.10.5-1.5.2-linux-x86.jar lib/hdf5-1.10.5-1.
+ 5.2-linux-x86_64.jar lib/hdf5-1.10.5-1.5.2-linux-armhf.jar lib/hdf5-1
+ .10.5-1.5.2-linux-arm64.jar lib/hdf5-1.10.5-1.5.2-linux-ppc64le.jar l
+ ib/hdf5-1.10.5-1.5.2-macosx-x86_64.jar lib/hdf5-1.10.5-1.5.2-windows-
+ x86.jar lib/hdf5-1.10.5-1.5.2-windows-x86_64.jar lib/slf4j-api-1.7.21
+ .jar lib/deeplearning4j-nn-1.0.0-beta6.jar lib/deeplearning4j-utility
+ -iterators-1.0.0-beta6.jar lib/deeplearning4j-util-1.0.0-beta6.jar li
+ b/oswego-concurrent-1.3.4.jar lib/nd4j-common-1.0.0-beta6.jar lib/gua
+ va-1.0.0-beta6.jar lib/nd4j-jackson-1.0.0-beta6.jar lib/oshi-core-3.4
+ .2.jar lib/jna-platform-4.3.0.jar lib/jna-4.3.0.jar lib/threetenbp-1.
+ 3.3.jar lib/fastutil-6.5.7.jar lib/commons-math3-3.5.jar lib/commons-
+ compress-1.18.jar lib/nd4j-api-1.0.0-beta6.jar lib/byteunits-0.9.1.ja
+ r lib/flatbuffers-java-1.10.0.jar lib/protobuf-1.0.0-beta6.jar lib/co
+ mmons-net-3.1.jar lib/nd4j-buffer-1.0.0-beta6.jar lib/nd4j-context-1.
+ 0.0-beta6.jar lib/neoitertools-1.0.0.jar lib/commons-lang3-3.6.jar li
+ b/jackson-1.0.0-beta6.jar lib/datavec-api-1.0.0-beta6.jar lib/commons
+ -codec-1.10.jar lib/joda-time-2.2.jar lib/freemarker-2.3.23.jar lib/s
+ tream-2.7.0.jar lib/opencsv-2.3.jar lib/t-digest-3.2.jar lib/datavec-
+ data-image-1.0.0-beta6.jar lib/jai-imageio-core-1.3.0.jar lib/imageio
+ -jpeg-3.1.1.jar lib/imageio-core-3.1.1.jar lib/imageio-metadata-3.1.1
+ .jar lib/common-lang-3.1.1.jar lib/common-io-3.1.1.jar lib/common-ima
+ ge-3.1.1.jar lib/imageio-tiff-3.1.1.jar lib/imageio-psd-3.1.1.jar lib
+ /imageio-bmp-3.1.1.jar lib/javacv-1.5.2.jar lib/opencv-4.1.2-1.5.2.ja
+ r lib/ffmpeg-4.2.1-1.5.2.jar lib/flycapture-2.13.3.31-1.5.2.jar lib/l
+ ibdc1394-2.2.6-1.5.2.jar lib/libfreenect-0.5.7-1.5.2.jar lib/libfreen
+ ect2-0.2.0-1.5.2.jar lib/librealsense-1.12.4-1.5.2.jar lib/librealsen
+ se2-2.29.0-1.5.2.jar lib/videoinput-0.200-1.5.2.jar lib/artoolkitplus
+ -2.3.1-1.5.2.jar lib/flandmark-1.07-1.5.2.jar lib/leptonica-1.78.0-1.
+ 5.2.jar lib/tesseract-4.1.0-1.5.2.jar lib/opencv-platform-4.1.2-1.5.2
+ .jar lib/opencv-4.1.2-1.5.2-android-arm.jar lib/opencv-4.1.2-1.5.2-an
+ droid-arm64.jar lib/opencv-4.1.2-1.5.2-android-x86.jar lib/opencv-4.1
+ .2-1.5.2-android-x86_64.jar lib/opencv-4.1.2-1.5.2-ios-arm64.jar lib/
+ opencv-4.1.2-1.5.2-ios-x86_64.jar lib/opencv-4.1.2-1.5.2-linux-x86.ja
+ r lib/opencv-4.1.2-1.5.2-linux-x86_64.jar lib/opencv-4.1.2-1.5.2-linu
+ x-armhf.jar lib/opencv-4.1.2-1.5.2-linux-arm64.jar lib/opencv-4.1.2-1
+ .5.2-linux-ppc64le.jar lib/opencv-4.1.2-1.5.2-macosx-x86_64.jar lib/o
+ pencv-4.1.2-1.5.2-windows-x86.jar lib/opencv-4.1.2-1.5.2-windows-x86_
+ 64.jar lib/leptonica-platform-1.78.0-1.5.2.jar lib/leptonica-1.78.0-1
+ .5.2-android-arm.jar lib/leptonica-1.78.0-1.5.2-android-arm64.jar lib
+ /leptonica-1.78.0-1.5.2-android-x86.jar lib/leptonica-1.78.0-1.5.2-an
+ droid-x86_64.jar lib/leptonica-1.78.0-1.5.2-linux-x86.jar lib/leptoni
+ ca-1.78.0-1.5.2-linux-x86_64.jar lib/leptonica-1.78.0-1.5.2-linux-arm
+ hf.jar lib/leptonica-1.78.0-1.5.2-linux-arm64.jar lib/leptonica-1.78.
+ 0-1.5.2-linux-ppc64le.jar lib/leptonica-1.78.0-1.5.2-macosx-x86_64.ja
+ r lib/leptonica-1.78.0-1.5.2-windows-x86.jar lib/leptonica-1.78.0-1.5
+ .2-windows-x86_64.jar lib/deeplearning4j-ui-components-1.0.0-beta6.ja
+ r lib/deeplearning4j-zoo-1.0.0-beta6.jar lib/deeplearning4j-common-1.
+ 0.0-beta6.jar lib/slf4j-jdk14-1.7.26.jar lib/spring-boot-starter-actu
+ ator-2.2.1.RELEASE.jar lib/spring-boot-actuator-autoconfigure-2.2.1.R
+ ELEASE.jar lib/spring-boot-actuator-2.2.1.RELEASE.jar lib/jackson-dat
+ abind-2.10.0.jar lib/jackson-annotations-2.10.0.jar lib/jackson-core-
+ 2.10.0.jar lib/spring-context-5.2.1.RELEASE.jar lib/jackson-datatype-
+ jsr310-2.10.0.jar lib/micrometer-core-1.3.1.jar lib/HdrHistogram-2.1.
+ 11.jar lib/LatencyUtils-2.0.3.jar lib/spring-boot-starter-aop-2.2.6.R
+ ELEASE.jar lib/spring-aop-5.2.5.RELEASE.jar lib/spring-beans-5.2.5.RE
+ LEASE.jar lib/aspectjweaver-1.9.5.jar lib/spring-boot-configuration-p
+ rocessor-2.5.3.jar lib/commons-io-2.8.0.jar lib/spring-boot-starter-t
+ hymeleaf-1.5.1.RELEASE.jar lib/thymeleaf-spring4-2.1.5.RELEASE.jar li
+ b/thymeleaf-2.1.5.RELEASE.jar lib/ognl-3.0.8.jar lib/javassist-3.16.1
+ -GA.jar lib/unbescape-1.1.0.RELEASE.jar lib/thymeleaf-layout-dialect-
+ 1.4.0.jar lib/groovy-2.4.3.jar lib/spring-boot-starter-2.2.6.RELEASE.
+ jar lib/spring-boot-2.2.6.RELEASE.jar lib/spring-boot-autoconfigure-2
+ .2.6.RELEASE.jar lib/jakarta.annotation-api-1.3.5.jar lib/spring-core
+ -5.2.5.RELEASE.jar lib/spring-jcl-5.2.5.RELEASE.jar lib/snakeyaml-1.2
+ 5.jar lib/spring-boot-starter-web-2.2.6.RELEASE.jar lib/spring-boot-s
+ tarter-json-2.2.6.RELEASE.jar lib/jackson-datatype-jdk8-2.10.3.jar li
+ b/jackson-module-parameter-names-2.10.3.jar lib/spring-boot-starter-t
+ omcat-2.2.6.RELEASE.jar lib/tomcat-embed-core-9.0.33.jar lib/tomcat-e
+ mbed-el-9.0.33.jar lib/tomcat-embed-websocket-9.0.33.jar lib/spring-b
+ oot-starter-validation-2.2.6.RELEASE.jar lib/jakarta.validation-api-2
+ .0.2.jar lib/hibernate-validator-6.0.18.Final.jar lib/jboss-logging-3
+ .3.2.Final.jar lib/classmate-1.3.4.jar lib/spring-web-5.2.5.RELEASE.j
+ ar lib/spring-webmvc-5.2.5.RELEASE.jar lib/spring-expression-5.2.5.RE
+ LEASE.jar
 Build-Jdk: 1.8.0_251
 Created-By: Maven Integration for Eclipse
+Main-Class: api.endpoints.springbootactuator.SpringbootActuatorApplica
+ tion
 

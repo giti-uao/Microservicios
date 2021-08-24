@@ -46,8 +46,8 @@ public class yolo {
 			// TODO Auto-generated catch block
 			System.out.print("Error al detectar objetos");
 			e.printStackTrace();
+			return new ArrayList<objProperties>();
 		}
-		return salida;
 	}
 
 	private static List<objProperties> detectedObjectstojson(String img_url, List<DetectedObject> detectedObjects) throws IOException {

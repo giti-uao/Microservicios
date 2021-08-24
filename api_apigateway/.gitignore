@@ -1,1 +1,11 @@
 /target/
+/jar/
+.classpath
+.project
+api_apigateway.iml
+hs_err_pid3604.log
+hs_err_pid11220.log
+replay_pid3604.log
+replay_pid11220.log
+/.settings/
+/.idea/
