@@ -26,7 +26,7 @@ public class http_rest {
 			// Database connect
 			// Conectamos con la base de datos
 			connection = DriverManager.getConnection(
-					"jdbc:mysql://45.5.188.200:5000/rescity?autoReconnect=true&useSSL=false",
+					"jdbc:mysql://msmicroservice:3306/rescity?autoReconnect=true&useSSL=false",
 					"root", "rescity");
 			boolean valid = connection.isValid(50000);
 

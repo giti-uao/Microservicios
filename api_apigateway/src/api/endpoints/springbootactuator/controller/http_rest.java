@@ -30,7 +30,7 @@ public class http_rest {
     @ResponseBody
     public ResponseEntity<responseModel> process_img(@RequestBody requestModel img_obj){
     	try {
-			responseModel response_obj = restTemplate.postForObject("http://localhost:9080/img",img_obj, responseModel.class);
+			responseModel response_obj = restTemplate.postForObject("http://apiservice:9080/img",img_obj, responseModel.class);
 			if(response_obj.getCode()==500){
 			    return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body(response_obj);
             }
