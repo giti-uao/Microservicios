@@ -23,5 +23,12 @@ public class requestModel {
 	public requestModel() {
 		super();
 	}
-	
+
+	@Override
+	public String toString() {
+		return "requestModel{" +
+				"url='" + url + '\'' +
+				", archivo='" + archivo + '\'' +
+				'}';
+	}
 }

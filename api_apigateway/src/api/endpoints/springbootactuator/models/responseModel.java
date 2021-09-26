@@ -31,4 +31,13 @@ public class responseModel {
 		this.status = status;
 	}
 	private String status;
+
+	@Override
+	public String toString() {
+		return "responseModel{" +
+				"message='" + message + '\'' +
+				", code=" + code +
+				", status='" + status + '\'' +
+				'}';
+	}
 }

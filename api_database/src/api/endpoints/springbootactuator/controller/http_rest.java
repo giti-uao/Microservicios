@@ -22,11 +22,12 @@ public class http_rest {
 	@ResponseStatus(HttpStatus.OK)
     public ResponseEntity<responseModel> postController(@RequestBody requestModel request_model) throws SQLException {
 	    try {
+	    	System.out.println(request_model.toString());
 			Connection connection = null;
 			// Database connect
 			// Conectamos con la base de datos
 			connection = DriverManager.getConnection(
-					"jdbc:mysql://msmicroservice:3306/rescity?autoReconnect=true&useSSL=false",
+					"jdbc:mysql://45.5.188.200:5000/rescity?autoReconnect=true&useSSL=false",
 					"root", "rescity");
 			boolean valid = connection.isValid(50000);
 

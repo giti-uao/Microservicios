@@ -12,6 +12,15 @@ public class requestModel {
 	public String getArchivo() {
 		return archivo;
 	}
+
+	@Override
+	public String toString() {
+		return "requestModel{" +
+				"url='" + url + '\'' +
+				", archivo='" + archivo + '\'' +
+				'}';
+	}
+
 	public void setArchivo(String archivo) {
 		this.archivo = archivo;
 	}
